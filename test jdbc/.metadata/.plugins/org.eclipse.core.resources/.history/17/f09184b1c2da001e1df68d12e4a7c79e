@@ -1,0 +1,6 @@
+package in.co.rays.payment;
+
+public class PaymentModel {
+	public void add(PaymentBean bean) throws Exception {
+		
+}

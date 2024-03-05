@@ -1,0 +1,15 @@
+package in.co.rays.payment;
+
+public class PaymentModel {
+	public void add(PaymentBean bean) throws Exception {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/rays","root","root");
+		
+		
+		
+		
+	}
+
+	}
+}
